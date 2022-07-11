@@ -4,8 +4,11 @@ logging:
 
 spring:
   rabbitmq:
-    host: 192.168.242.130
+    host: 192.168.17.129
     port: 5672
     username: itcast
     password: 123321
     virtual-host: /
+    listener:
+      simple:
+        prefetch: 1 #每次只能获取一条消息，处理完成才能获取下一条
