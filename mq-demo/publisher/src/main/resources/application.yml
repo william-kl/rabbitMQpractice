@@ -3,7 +3,7 @@ logging:
     dateformat: MM-dd HH:mm:ss:SSS
 spring:
   rabbitmq:
-    host: 192.168.242.130
+    host: 192.168.17.129
     port: 5672
     username: itcast
     password: 123321
